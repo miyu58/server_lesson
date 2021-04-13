@@ -1,0 +1,300 @@
+  697  git checkout master
+  698  git branch
+  699  cd /vagrant/
+  700  git branch
+  701  cd server_lesson/
+  702  git status
+  703  git checkout master
+  704  git branch
+  705  git merge task2
+  706  git status
+  707  git push origin master
+  708  git log
+  709  git branch
+  710  git chekout
+  711  git checkout task2
+  712  git branch
+  713  git status
+  714  git log
+  715  git push origin task2
+  716  ls
+  717  cd linux_practice2/.gitignore/
+  718  ls
+  719  ls ../
+  720  ls ../trash/
+  721  ls -a ../
+  722  git status --ignored
+  723  git ls-files --others
+  724  cd ../../
+  725  git branch
+  726  history 300
+  727  ls linux_practice2
+  728  ls -a linux_practice2
+  729  mkdir linux_practice2/exec_command.log
+  730  ls linux_practice2
+  731  vi exec_command.log
+  732  git status
+  733  cd linux_practice2
+  734  ls
+  735  git add exec_command.log/
+  736  git status
+  737  git commit -m'コマンド実行結果300'
+  738  git status
+  739  git log
+  740  git commit -m'コマンド実行結果300'
+  741  git log
+  742  git status
+  743  git checkout master
+  744  git branch
+  745  git merge task2
+  746  git checkout task2
+  747  git branch
+  748  git push origin task2
+  749  git status
+  750  ls exec_command.log/
+  751  vi exec_command.log/
+  752  ls
+  753  rm -r exec_command.log/
+  754  ls
+  755  touch exec_command.log
+  756  ls
+  757  vi exec_command.log 
+  758  git status
+  759  git add exec_command.log
+  760  git status
+  761  git commit -m'コマンド実行300件'
+  762  git checkout master
+  763  git branch
+  764  git merge task2
+  765  git branch
+  766  git push origin master
+  767  git checkout task2
+  768  git branch
+  769  git push origin task2
+  770  ls -a
+  771  rm -r .gitignore/
+  772  ls -a
+  773  touch .gitignore
+  774  ls -a
+  775  vi .gitignore 
+  776  git status
+  777  ls
+  778  ls -a
+  779  git add .
+  780  git add --all
+  781  git atatus
+  782  git status
+  783  git commit -m'.gitignoreディレクトリ消去/.gitignoreファイル作成'
+  784  git push origin master
+  785  git push origin task2
+  786  git checkout master
+  787  git branch
+  788  git merge task2
+  789  git push origin master
+  790  git checkout task2
+  791  git brnch
+  792  git branch
+  793  git rm --cached gizumo{20..29}.md
+  794  ls -a
+  795  ls trash/gizumo{20..29}.md
+  796  git rm --cached trash/gizumo{20..29}.md
+  797  git status
+  798  git add --all
+  799  git ls-files --others
+  800  git ls-files --others --ignored --exclude-standard'
+  801  git status
+  802  git commit -m'対象外ファイル再指定'
+  803  git push origin tak2
+  804  git status
+  805  git add exec_command.log
+  806  git status
+  807  git checkout master
+  808  git status
+  809  git status --ignored
+  810  ls exec_command.log 
+  811  git add --all
+  812  git add .
+  813  git status
+  814  git add ../exec_command.log
+  815  git status
+  816  git commit -m'exec_command.log上げなおし'
+  817  git barnch
+  818  git branch
+  819  git push origin master
+  820  git status
+  821  cd ../../../
+  822  la
+  823  ls
+  824  cd vagrant
+  825  ls
+  826  cd server_lesson
+  827  ls
+  828  ls exec_command.log 
+  829  ls linux_practice2/
+  830  git checkout task2
+  831  ls
+  832  git checkout master
+  833  git branch
+  834  ls
+  835  rm exec_command.log 
+  836  ls
+  837  git status
+  838  git add exec_command.log
+  839  git add -A
+  840  git status
+  841  git commit -m'exec_command.log間違えたため消去'
+  842  git push origin master
+  843  git status
+  844  git checkout task2
+  845  git status
+  846  git checkout task1
+  847  git status
+  848  git checkout master
+  849  git branch
+  850  ls
+  851  ls linux_practice1/
+  852  ls linux_practice1/public/
+  853  ls linux_practice1/tmp/
+  854  ls linux_practice2/
+  855  ls -a linux_practice2/
+  856  ls -a linux_practice2/documents/
+  857  ls -a linux_practice2/t
+  858  ls -a linux_practice2/trash/
+  859  ls -a 
+  860  ls -a linux_practice2/
+  861  git checkout task2
+  862  git barnch
+  863  git branch
+  864  vi README.md 
+  865  git checkout task1
+  866  git add README.md
+  867  git status
+  868  git commit -m'箇条書きに変更'
+  869  git status
+  870  git push origin task1
+  871  git checkout master
+  872  vi README.md 
+  873  git merge task1
+  874  git status
+  875  git add README.md
+  876  git status
+  877  git merge task1
+  878  git commit -m'README.md変更'
+  879  git merge task1
+  880  git push origin master
+  881  git status
+  882  vi README.md 
+  883  git add README.md
+  884  git status
+  885  git commit -m' Committer: vagrant <vagrant@localhost.localdomain>'
+  886  Your name and email address were configured automatically based
+  887  on your username and hostname. Please check that they are accurate.
+  888  You can suppress this message by setting them explicitly:
+  889      git config --global user.name "Your Name"
+  890      git config --global user.email you@example.com
+  891  After doing this, you may fix the identity used for this commit with:
+  892      git commit --amend --reset-author
+  893  git status
+  894  git add README.md
+  895  git status
+  896  git push origin master
+  897  git commit --amend
+  898  git add README.md
+  899  git status
+  900  git push origin master
+  901  git push -f origin master
+  902  git status
+  903  git branch
+  904  git checkout task2
+  905  git branch
+  906  git merge origin master
+  907  git checkout master
+  908  git branch
+  909  git pull origin master
+  910  git checkout task2
+  911  git branch
+  912  git merge master
+  913  git push origin task2
+  914  git status
+  915  git checkout task2
+  916  git branch
+  917  ls
+  918  ls linux_practice2/trash/gizumo[20..29].md
+  919  ls linux_practice2/trash/
+  920  ls linux_practice2/trash/gizumo{20..29}.md
+  921  ls linux_practice2/trash/gizumo[20-29].md
+  922  vi .ignore
+  923  vi .gitignore
+  924  git status
+  925  git add .gitignore
+  926  git status
+  927  git commit -m'.gitignore反映'
+  928  git status
+  929  git push origin master
+  930  git push origin task2
+  931  git status
+  932  git checkout master
+  933  git baranch
+  934  git branch
+  935  git merge task2
+  936  git branch
+  937  git status
+  938  git ls-files --others
+  939  git ls-files --ignored
+  940  ls -a linux_practice2/
+  941  git branch
+  942  git push master
+  943  git origin master
+  944  git status
+  945  git log
+  946  git diff
+  947  git status
+  948  git branch
+  949  git add .
+  950  git status
+  951  vi .gitignore
+  952  git push origin masuter
+  953  git add .
+  954  git status
+  955  git checkout task2
+  956  git branch
+  957  git status
+  958  git add .
+  959  git status
+  960  git log
+  961  git push origin master
+  962  git status
+  963  git branch
+  964  git ls-files
+  965  ls
+  966  mkdir linux_practice2_old
+  967  ls
+  968  cd linux_practice2_old/
+  969  git branch
+  970  git checkout master
+  971  git branch
+  972  ls ../../
+  973  cd ../../
+  974  cd server_lesson/
+  975  git branch
+  976  git branch task3
+  977  git branch
+  978  git checkout task3
+  979  git branch
+  980  ls
+  981  cd linux_practice2_old/
+  982  mkdir document
+  983  ls
+  984  touch document/gizumo{01..50}.md
+  985  ls document/
+  986  mkdir trash
+  987  ls
+  988  mv document/gizumo{20..40}.md trash/
+  989  ls trash/
+  990  ls document/
+  991  touch .gitignore
+  992  ls -a
+  993  vi .gitignore 
+  994  touch exec_command.log
+  995  ls
+  996  history 300
