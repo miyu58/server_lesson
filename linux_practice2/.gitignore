@@ -1,2 +1,2 @@
-# gizumo20.md-29.md対象外指定
-gizumo{20..29}.md
+# gizumo20.md-29.md対象外
+gizumo[20-29].md
