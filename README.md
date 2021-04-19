@@ -10,4 +10,3 @@ Linuxプラクティス
 * mv (MoVe)
 * rm (ReMove)
 * cat (CATnate)
->>>>>>> task1
